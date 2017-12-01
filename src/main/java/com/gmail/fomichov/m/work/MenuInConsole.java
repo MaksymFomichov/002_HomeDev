@@ -16,19 +16,19 @@ public class MenuInConsole {
         int choice = scanner.nextInt();
         switch (choice) {
             case 1:
-                new ShowTablesInConsole().showTableDevelopers();
+                ShowTablesInConsole.showTableDevelopers();
                 break;
             case 2:
-                new ShowTablesInConsole().showTableSkills();
+                ShowTablesInConsole.showTableSkills();
                 break;
             case 3:
-                new ShowTablesInConsole().showTableCompanies();
+                ShowTablesInConsole.showTableCompanies();
                 break;
             case 4:
-                new ShowTablesInConsole().showTableCustomers();
+                ShowTablesInConsole.showTableCustomers();
                 break;
             case 5:
-                new ShowTablesInConsole().showTableProjects();
+                ShowTablesInConsole.showTableProjects();
                 break;
             case 0:
                 System.exit(0);
@@ -47,15 +47,15 @@ public class MenuInConsole {
         switch (choice) {
             case 1:
                 if (nameTable.equals("developers")) {
-                    new CreateDataInTable().createDeveloper();
+                    new MenuInConsoleCreateDataInTable().createDeveloper();
                 } else if (nameTable.equals("companies")) {
-                    new CreateDataInTable().createCompany();
+                    new MenuInConsoleCreateDataInTable().createCompany();
                 } else if (nameTable.equals("customers")) {
-                    new CreateDataInTable().createCustomer();
+                    new MenuInConsoleCreateDataInTable().createCustomer();
                 } else if (nameTable.equals("projects")) {
-                    new CreateDataInTable().createProject();
+                    new MenuInConsoleCreateDataInTable().createProject();
                 } else if (nameTable.equals("skills")) {
-                    new CreateDataInTable().createSkill();
+                    new MenuInConsoleCreateDataInTable().createSkill();
                 }
                 break;
             case 2:
@@ -125,7 +125,7 @@ public class MenuInConsole {
                 break;
 
             case 0:
-                new ShowTablesInConsole().showTableDevelopers();
+                ShowTablesInConsole.showTableDevelopers();
         }
     }
 
@@ -140,14 +140,14 @@ public class MenuInConsole {
                 new ExpandedShowList().choiceCompanyFromShowListProjects();
                 break;
             case 2:
-                new ExpandedAddData().addProjectToCompany();
+
                 break;
             case 3:
 
                 break;
 
             case 0:
-                new ShowTablesInConsole().showTableCompanies();
+                ShowTablesInConsole.showTableCompanies();
         }
     }
 
@@ -162,14 +162,14 @@ public class MenuInConsole {
                 new ExpandedShowList().choiceCustomerFromShowListProjects();
                 break;
             case 2:
-                new ExpandedAddData().addProjectToCustomer();
+
                 break;
             case 3:
 
                 break;
 
             case 0:
-                new ShowTablesInConsole().showTableCustomers();
+                ShowTablesInConsole.showTableCustomers();
         }
     }
 }

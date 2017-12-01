@@ -15,7 +15,7 @@ class MenuInConsoleInside {
         if (choice == 0) {
             MenuInConsole.developerExpandedMenuEdit();
         } else {
-            new JdbcDeveloperDAOImpl().addSkillToDeveloper(developerId, new Long(choice));
+            new JdbcDeveloperDAOImpl().addSkillToDeveloper(developerId, (long) choice);
         }
     }
 
@@ -26,7 +26,7 @@ class MenuInConsoleInside {
         if (choice == 0) {
             MenuInConsole.developerExpandedMenuEdit();
         } else {
-            new JdbcDeveloperDAOImpl().deleteSkillToDeveloper(developerId, new Long(choice));
+            new JdbcDeveloperDAOImpl().deleteSkillToDeveloper(developerId, (long) choice);
         }
     }
 }
