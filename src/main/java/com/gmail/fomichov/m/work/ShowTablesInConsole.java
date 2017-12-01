@@ -22,7 +22,7 @@ public class ShowTablesInConsole {
             System.out.format("%d%10s%10s", value.getId(), value.getName(), value.getSalary());
             System.out.println();
         }
-        MenuInConsole.workConsoleMenu("developers");
+        Menu.workConsoleMenu("developers");
     }
 
     // выводим в консоль таблицу Skills
@@ -36,7 +36,7 @@ public class ShowTablesInConsole {
             System.out.format("%d%15s", value.getId(), value.getSkill());
             System.out.println();
         }
-        MenuInConsole.workConsoleMenu("skills");
+        Menu.workConsoleMenu("skills");
     }
 
     // выводим в консоль таблицу Companies
@@ -50,7 +50,7 @@ public class ShowTablesInConsole {
             System.out.format("%d%10s", value.getId(), value.getCompany());
             System.out.println();
         }
-        MenuInConsole.workConsoleMenu("companies");
+        Menu.workConsoleMenu("companies");
     }
 
     // выводим в консоль таблицу Customers
@@ -64,7 +64,7 @@ public class ShowTablesInConsole {
             System.out.format("%d%15s", value.getId(), value.getCustomer());
             System.out.println();
         }
-        MenuInConsole.workConsoleMenu("customers");
+        Menu.workConsoleMenu("customers");
     }
 
     // выводим в консоль таблицу Projects
@@ -78,7 +78,7 @@ public class ShowTablesInConsole {
             System.out.format("%d%10s%15s", value.getId(), value.getCost(), value.getProject());
             System.out.println();
         }
-        MenuInConsole.workConsoleMenu("projects");
+        Menu.workConsoleMenu("projects");
     }
 
     // таблицы по запросам
@@ -97,9 +97,9 @@ public class ShowTablesInConsole {
             }
         }
         if (!deleteSkill) {
-            MenuInConsole.developerExpandedMenuEdit();
+            Menu.developerExpandedMenuEdit();
         } else {
-            MenuInConsoleInside.choiceDeleteSkillFromDeveloper(developer.getId());
+            MenuInside.choiceDeleteSkillFromDeveloper(developer.getId());
         }
     }
 
@@ -116,7 +116,7 @@ public class ShowTablesInConsole {
                 System.out.println();
             }
         }
-        MenuInConsole.developerExpandedMenuEdit();
+        Menu.developerExpandedMenuEdit();
     }
 
     // выводим все проекты выбранной компании
@@ -132,7 +132,7 @@ public class ShowTablesInConsole {
                 System.out.println();
             }
         }
-        MenuInConsole.companyExpandedMenuEdit();
+        Menu.companyExpandedMenuEdit();
     }
 
     // выводим все проекты выбранного заказчика
@@ -148,7 +148,7 @@ public class ShowTablesInConsole {
                 System.out.println();
             }
         }
-        MenuInConsole.customerExpandedMenuEdit();
+        Menu.customerExpandedMenuEdit();
     }
 
 
@@ -181,6 +181,6 @@ public class ShowTablesInConsole {
             System.out.println();
         }
 
-        MenuInConsoleInside.choiceAddSkillFromDeveloper(developerId);
+        MenuInside.choiceAddSkillFromDeveloper(developerId);
     }
 }
