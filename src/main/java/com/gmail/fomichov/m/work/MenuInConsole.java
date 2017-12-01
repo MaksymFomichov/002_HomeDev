@@ -3,7 +3,7 @@ package com.gmail.fomichov.m.work;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class ShowMenuInConsole {
+public class MenuInConsole {
 
     // стартовое меню
     public static void startConsoleMenu() throws SQLException {
@@ -35,14 +35,13 @@ public class ShowMenuInConsole {
         }
     }
 
-    // меню работы с таблицей
+    // меню работы с таблицами
     static void workConsoleMenu(String nameTable) throws SQLException {
         System.out.println("\nВыберите, что вы хотите сделать с данными или 0 для возрата в предыдущее меню");
         System.out.println("1 - создать\n2 - изменить\n3 - удалить");
         if (nameTable.equals("developers") || nameTable.equals("companies") || nameTable.equals("customers")) {
             System.out.println("4 - расширенное редактирование");
         }
-
         Scanner scanner = new Scanner(System.in);
         int choice = scanner.nextInt();
         switch (choice) {
@@ -97,9 +96,9 @@ public class ShowMenuInConsole {
             case 0:
                 startConsoleMenu();
         }
-
     }
 
+    // меню работы с дополнительными возможностями редактирования для разработчиков
     static void developerExpandedMenuEdit() throws SQLException {
         System.out.println("\nВыберите, что вы хотите сделать или 0 для возрата в предыдущее меню");
         System.out.println("1 - просмотр навыков разрабочика\n2 - добавление навыка разработчику\n3 - удаления навыка у разработчика\n4 - просмотр проектов разработчика\n5 - добавления проекта разработчику\n6 - удаление проекта у разработчика");
@@ -107,16 +106,16 @@ public class ShowMenuInConsole {
         int choice = scanner.nextInt();
         switch (choice) {
             case 1:
-                new ExpandedShowList().showListSkillsDeveloper();
+                new ExpandedShowList().choiceDeveloperFromShowListSkills(false, false);
                 break;
             case 2:
-
+                new ExpandedShowList().choiceDeveloperFromShowListSkills(true, false);
                 break;
             case 3:
-
+                new ExpandedShowList().choiceDeveloperFromShowListSkills(false, true);
                 break;
             case 4:
-                new ExpandedShowList().showListProjectsDeveloper();
+                new ExpandedShowList().choiceDeveloperFromShowListProjects();
                 break;
             case 5:
 
@@ -130,6 +129,7 @@ public class ShowMenuInConsole {
         }
     }
 
+    // меню работы с дополнительными возможностями редактирования для компании
     static void companyExpandedMenuEdit() throws SQLException {
         System.out.println("\nВыберите, что вы хотите сделать или 0 для возрата в предыдущее меню");
         System.out.println("1 - просмотр проектов компании\n2 - добавление проекта компании\n3 - удаления проекта компании");
@@ -137,10 +137,10 @@ public class ShowMenuInConsole {
         int choice = scanner.nextInt();
         switch (choice) {
             case 1:
-                new ExpandedShowList().showListProjectCompany();
+                new ExpandedShowList().choiceCompanyFromShowListProjects();
                 break;
             case 2:
-
+                new ExpandedAddData().addProjectToCompany();
                 break;
             case 3:
 
@@ -151,24 +151,25 @@ public class ShowMenuInConsole {
         }
     }
 
+    // меню работы с дополнительными возможностями редактирования для заказчика
     static void customerExpandedMenuEdit() throws SQLException {
         System.out.println("\nВыберите, что вы хотите сделать или 0 для возрата в предыдущее меню");
-        System.out.println("1 - просмотр проетов заказчика\n2 - добавление проекта заказчику\n3 - удаления проекта у заказчика");
+        System.out.println("1 - просмотр проектов заказчика\n2 - добавление проекта заказчику\n3 - удаления проекта у заказчика");
         Scanner scanner = new Scanner(System.in);
         int choice = scanner.nextInt();
         switch (choice) {
             case 1:
-
+                new ExpandedShowList().choiceCustomerFromShowListProjects();
                 break;
             case 2:
-
+                new ExpandedAddData().addProjectToCustomer();
                 break;
             case 3:
 
                 break;
 
             case 0:
-                new ShowTablesInConsole().showTableProjects();
+                new ShowTablesInConsole().showTableCustomers();
         }
     }
 }

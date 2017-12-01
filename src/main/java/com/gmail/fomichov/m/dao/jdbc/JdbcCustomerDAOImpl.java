@@ -3,6 +3,7 @@ package com.gmail.fomichov.m.dao.jdbc;
 import com.gmail.fomichov.m.dao.ConnectionUtil;
 import com.gmail.fomichov.m.dao.CustomerDAO;
 import com.gmail.fomichov.m.model.Customer;
+import com.gmail.fomichov.m.model.Project;
 import com.gmail.fomichov.m.work.ShowTablesInConsole;
 
 import java.sql.ResultSet;
@@ -25,6 +26,7 @@ public class JdbcCustomerDAOImpl implements CustomerDAO {
             String nameCustomer = resultSet.getString("customer");
 
             customer.withId(customerId)
+                    .withProjectList(getListProject(customerId))
                     .withCustomer(nameCustomer);
         }
 
@@ -47,6 +49,7 @@ public class JdbcCustomerDAOImpl implements CustomerDAO {
             String nameCustomer = resultSet.getString("customer");
 
             customer.withId(customerId)
+                    .withProjectList(getListProject(customerId))
                     .withCustomer(nameCustomer);
 
             customerList.add(customer);
@@ -81,5 +84,26 @@ public class JdbcCustomerDAOImpl implements CustomerDAO {
         statement.executeUpdate(insertQuery);
         statement.close();
         ShowTablesInConsole.showTableCustomers();
+    }
+
+    private List<Project> getListProject(Long customerId) throws SQLException {
+        List<Project> listProject = new ArrayList<Project>();
+        String query = "SELECT * FROM customers_projects WHERE customers_id = " + customerId;
+        Statement statement = ConnectionUtil.getConnection().createStatement();
+        ResultSet resultSet = statement.executeQuery(query);
+
+        while (resultSet.next()) {
+            Project project = new Project();
+            Long projectId = resultSet.getLong("projects_id");
+            String projectName = new JdbcProjectDAOImpl().getById(projectId).getProject();
+
+            project.withId(projectId)
+                    .withProject(projectName);
+
+            listProject.add(project);
+        }
+        resultSet.close();
+        statement.close();
+        return listProject;
     }
 }

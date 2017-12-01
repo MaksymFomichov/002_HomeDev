@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3618b3a-a57c-4cfc-8f35-71c2721c74db" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ExpandedAddData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/MenuInConsoleInside.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/JdbcMain.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/JdbcMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcCustomerDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcCustomerDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcDeveloperDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcDeveloperDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/model/Customer.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/model/Customer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ExpandedShowList.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ExpandedShowList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ShowTablesInConsole.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ShowTablesInConsole.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ShowMenuInConsole.java" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/MenuInConsole.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,18 +28,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="JdbcCompanyDAOImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcCompanyDAOImpl.java">
+      <file leaf-file-name="MenuInConsoleInside.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/MenuInConsoleInside.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1004">
-              <caret line="82" column="89" lean-forward="false" selection-start-line="82" selection-start-column="89" selection-end-line="82" selection-end-column="89" />
+            <state relative-caret-position="700">
+              <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
               <folding>
-                <marker date="1512083161006" expanded="true" signature="546:581" ph=" SELECT statement (COMPANIES)" />
-                <marker date="1512083161006" expanded="true" signature="1312:1347" ph=" SELECT statement (COMPANIES)" />
-                <marker date="1512083161006" expanded="true" signature="2146:2215" ph=" UPDATE statement (COMPANIES)" />
-                <marker date="1512083161006" expanded="true" signature="2532:2563" ph=" DELETE statement (COMPANIES)" />
-                <marker date="1512083161006" expanded="true" signature="2930:2987" ph=" INSERT statement (COMPANIES)" />
-                <marker date="1512083161006" expanded="true" signature="3285:3339" ph=" SELECT statement (DEVELOPERS_PROJECTS)" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuInConsole.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/MenuInConsole.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-133">
+              <caret line="101" column="4" lean-forward="false" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#startConsoleMenu#0;class#MenuInConsole#0" expanded="false" />
+                <element signature="method#workConsoleMenu#0;class#MenuInConsole#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -59,13 +78,21 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ShowExpandedMenuInConsole.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/JdbcMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/model/Developer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ShowMenuInConsole.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ShowTablesInConsole.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ExpandedShowList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcDeveloperDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcCompanyDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/model/Company.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/model/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcCustomerDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/SkillDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/GenericDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcSkillDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ExpandedAddData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcDeveloperDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ShowMenuInConsole.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ShowTablesInConsole.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ExpandedShowList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/MenuInConsole.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/MenuInConsoleInside.java" />
       </list>
     </option>
   </component>
@@ -196,7 +223,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../001_HomeDeveloper" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -349,23 +376,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="3862" height="2122" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11087645" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11072939" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22296602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51453793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15278515" sideWeight="0.49794027" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13794926" sideWeight="0.49794027" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2596054" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1404435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -376,9 +404,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904223" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2600412" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -390,51 +416,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ShowTablesInConsole.java</url>
-          <line>119</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ShowExpandedMenuInConsole.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/DeleteDataInTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/UpdateDataInTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/GenericDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/ConnectionUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/CreateDataInTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -456,11 +442,11 @@
         <state relative-caret-position="-613">
           <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="29" />
           <folding>
-            <marker date="1511905359449" expanded="true" signature="493:525" ph=" SELECT statement (SKILLS)" />
-            <marker date="1511905359449" expanded="true" signature="1162:1194" ph=" SELECT statement (SKILLS)" />
-            <marker date="1511905359449" expanded="true" signature="1899:1959" ph=" UPDATE statement (SKILLS)" />
-            <marker date="1511905359449" expanded="true" signature="2267:2295" ph=" DELETE statement (SKILLS)" />
-            <marker date="1511905359449" expanded="true" signature="2649:2701" ph=" INSERT statement (SKILLS)" />
+            <marker date="1512143997678" expanded="true" signature="493:525" ph=" SELECT statement (SKILLS)" />
+            <marker date="1512143997678" expanded="true" signature="1162:1194" ph=" SELECT statement (SKILLS)" />
+            <marker date="1512143997678" expanded="true" signature="1899:1959" ph=" UPDATE statement (SKILLS)" />
+            <marker date="1512143997678" expanded="true" signature="2267:2295" ph=" DELETE statement (SKILLS)" />
+            <marker date="1512143997678" expanded="true" signature="2649:2701" ph=" INSERT statement (SKILLS)" />
           </folding>
         </state>
       </provider>
@@ -478,7 +464,7 @@
         <state relative-caret-position="660">
           <caret line="79" column="25" lean-forward="false" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="method#withId#0;class#Developer#0" expanded="false" />
             <element signature="method#withName#0;class#Developer#0" expanded="false" />
             <element signature="method#withSalary#0;class#Developer#0" expanded="false" />
@@ -498,11 +484,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ShowMenuInConsole.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/MenuInConsole.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#startConsoleMenu#0;class#MenuInConsole#0" expanded="false" />
+            <element signature="method#workConsoleMenu#0;class#MenuInConsole#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -529,15 +519,23 @@
         <state relative-caret-position="726">
           <caret line="131" column="31" lean-forward="false" selection-start-line="117" selection-start-column="4" selection-end-line="136" selection-end-column="5" />
           <folding>
-            <element signature="e#3800#3807#0" expanded="true" />
-            <element signature="e#4604#4613#0" expanded="true" />
-            <marker date="1512083161073" expanded="true" signature="628:664" ph=" SELECT statement (DEVELOPERS)" />
-            <marker date="1512083161073" expanded="true" signature="1570:1606" ph=" SELECT statement (DEVELOPERS)" />
-            <marker date="1512083161073" expanded="true" signature="2577:2683" ph=" UPDATE statement (DEVELOPERS)" />
-            <marker date="1512083161073" expanded="true" signature="3007:3039" ph=" DELETE statement (DEVELOPERS)" />
-            <marker date="1512083161073" expanded="true" signature="3463:3544" ph=" INSERT statement (DEVELOPERS)" />
-            <marker date="1512083161073" expanded="true" signature="3835:3889" ph=" SELECT statement (DEVELOPERS_SKILLS)" />
-            <marker date="1512083161073" expanded="true" signature="4641:4697" ph=" SELECT statement (DEVELOPERS_PROJECTS)" />
+            <element signature="e#3927#3934#0" expanded="true" />
+            <element signature="e#4906#4913#0" expanded="true" />
+            <element signature="e#6949#6958#0" expanded="true" />
+            <marker date="1512157183428" expanded="true" signature="628:664" ph=" SELECT statement (DEVELOPERS)" />
+            <marker date="1512157183428" expanded="true" signature="1570:1606" ph=" SELECT statement (DEVELOPERS)" />
+            <marker date="1512157183428" expanded="true" signature="2613:2719" ph=" UPDATE statement (DEVELOPERS)" />
+            <marker date="1512157183428" expanded="true" signature="3071:3103" ph=" DELETE statement (DEVELOPERS)" />
+            <marker date="1512157183428" expanded="true" signature="3555:3636" ph=" INSERT statement (DEVELOPERS)" />
+            <marker date="1512157183428" expanded="true" signature="3962:4016" ph=" SELECT statement (DEVELOPERS_SKILLS)" />
+            <marker date="1512157183428" expanded="true" signature="4941:5013" ph=" SELECT statement (DEVELOPERS_SKILLS)" />
+            <marker date="1512157183428" expanded="true" signature="5748:5804" ph=" INSERT statement (DEVELOPERS_SKILLS)" />
+            <marker date="1512157183428" expanded="true" signature="5748:5818" ph=" INSERT statement (DEVELOPERS_SKILLS)" />
+            <marker date="1512157183428" expanded="true" signature="5748:5841" ph=" INSERT statement (DEVELOPERS_SKILLS)" />
+            <marker date="1512157183428" expanded="true" signature="5748:5858" ph=" INSERT statement (DEVELOPERS_SKILLS)" />
+            <marker date="1512157183428" expanded="true" signature="6393:6439" ph=" DELETE statement (DEVELOPERS_SKILLS)" />
+            <marker date="1512157183428" expanded="true" signature="6393:6473" ph=" DELETE statement (DEVELOPERS_SKILLS)" />
+            <marker date="1512157183428" expanded="true" signature="6986:7042" ph=" SELECT statement (DEVELOPERS_PROJECTS)" />
           </folding>
         </state>
       </provider>
@@ -546,7 +544,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="607">
           <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#showTableDevelopers#0;class#ShowTablesInConsole#0" expanded="false" />
+            <element signature="method#showTableSkills#0;class#ShowTablesInConsole#0" expanded="false" />
+            <element signature="method#showTableCompanies#0;class#ShowTablesInConsole#0" expanded="false" />
+            <element signature="method#showTableCustomers#0;class#ShowTablesInConsole#0" expanded="false" />
+            <element signature="method#showTableProjects#0;class#ShowTablesInConsole#0" expanded="false" />
+            <element signature="method#showTableDevelopersSkills#0;class#ShowTablesInConsole#0" expanded="false" />
+            <element signature="method#showTableDevelopersProjects#0;class#ShowTablesInConsole#0" expanded="false" />
+            <element signature="method#showTableCompanyProjects#0;class#ShowTablesInConsole#0" expanded="false" />
+            <element signature="method#showTableCustomerProjects#0;class#ShowTablesInConsole#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -557,9 +565,9 @@
           <folding>
             <element signature="method#withId#0;class#Company#0" expanded="false" />
             <element signature="method#withCompany#0;class#Company#0" expanded="false" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="false" />
+            <element signature="e#913#914#0" expanded="false" />
+            <element signature="e#1020#1021#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -637,6 +645,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -648,13 +657,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ShowExpandedMenuInConsole.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/DeleteDataInTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/UpdateDataInTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -662,85 +664,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/GenericDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/ConnectionUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/CreateDataInTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/DeveloperDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcSkillDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-613">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <marker date="1511905359449" expanded="true" signature="493:525" ph=" SELECT statement (SKILLS)" />
-            <marker date="1511905359449" expanded="true" signature="1162:1194" ph=" SELECT statement (SKILLS)" />
-            <marker date="1511905359449" expanded="true" signature="1899:1959" ph=" UPDATE statement (SKILLS)" />
-            <marker date="1511905359449" expanded="true" signature="2267:2295" ph=" DELETE statement (SKILLS)" />
-            <marker date="1511905359449" expanded="true" signature="2649:2701" ph=" INSERT statement (SKILLS)" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
           <caret line="127" column="12" lean-forward="false" selection-start-line="127" selection-start-column="12" selection-end-line="127" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/model/Developer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="79" column="25" lean-forward="false" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#withId#0;class#Developer#0" expanded="false" />
-            <element signature="method#withName#0;class#Developer#0" expanded="false" />
-            <element signature="method#withSalary#0;class#Developer#0" expanded="false" />
-            <element signature="method#withListSkill#0;class#Developer#0" expanded="false" />
-            <element signature="e#1607#1608#0" expanded="true" />
-            <element signature="e#1641#1642#0" expanded="true" />
-            <element signature="method#withListProject#0;class#Developer#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/model/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ShowMenuInConsole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -753,42 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ExpandedShowList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="53" lean-forward="false" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcDeveloperDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="131" column="31" lean-forward="false" selection-start-line="117" selection-start-column="4" selection-end-line="136" selection-end-column="5" />
-          <folding>
-            <element signature="e#3800#3807#0" expanded="true" />
-            <element signature="e#4604#4613#0" expanded="true" />
-            <marker date="1512083161073" expanded="true" signature="628:664" ph=" SELECT statement (DEVELOPERS)" />
-            <marker date="1512083161073" expanded="true" signature="1570:1606" ph=" SELECT statement (DEVELOPERS)" />
-            <marker date="1512083161073" expanded="true" signature="2577:2683" ph=" UPDATE statement (DEVELOPERS)" />
-            <marker date="1512083161073" expanded="true" signature="3007:3039" ph=" DELETE statement (DEVELOPERS)" />
-            <marker date="1512083161073" expanded="true" signature="3463:3544" ph=" INSERT statement (DEVELOPERS)" />
-            <marker date="1512083161073" expanded="true" signature="3835:3889" ph=" SELECT statement (DEVELOPERS_SKILLS)" />
-            <marker date="1512083161073" expanded="true" signature="4641:4697" ph=" SELECT statement (DEVELOPERS_PROJECTS)" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ShowTablesInConsole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/model/Company.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
@@ -796,9 +687,9 @@
           <folding>
             <element signature="method#withId#0;class#Company#0" expanded="false" />
             <element signature="method#withCompany#0;class#Company#0" expanded="false" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="false" />
+            <element signature="e#913#914#0" expanded="false" />
+            <element signature="e#1020#1021#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -819,7 +710,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcCompanyDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1004">
+        <state relative-caret-position="1001">
           <caret line="82" column="89" lean-forward="false" selection-start-line="82" selection-start-column="89" selection-end-line="82" selection-end-column="89" />
           <folding>
             <marker date="1512083161006" expanded="true" signature="546:581" ph=" SELECT statement (COMPANIES)" />
@@ -828,6 +719,207 @@
             <marker date="1512083161006" expanded="true" signature="2532:2563" ph=" DELETE statement (COMPANIES)" />
             <marker date="1512083161006" expanded="true" signature="2930:2987" ph=" INSERT statement (COMPANIES)" />
             <marker date="1512083161006" expanded="true" signature="3285:3339" ph=" SELECT statement (DEVELOPERS_PROJECTS)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="65" column="46" lean-forward="false" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
+          <folding>
+            <element signature="method#withId#0;class#Customer#0" expanded="false" />
+            <element signature="method#withCustomer#0;class#Customer#0" expanded="false" />
+            <element signature="method#withProjectList#0;class#Customer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcCustomerDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-281">
+          <caret line="51" column="64" lean-forward="false" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+          <folding>
+            <element signature="e#3298#3307#0" expanded="true" />
+            <marker date="1512138241426" expanded="true" signature="551:586" ph=" SELECT statement (CUSTOMERS)" />
+            <marker date="1512138241426" expanded="true" signature="1333:1368" ph=" SELECT statement (CUSTOMERS)" />
+            <marker date="1512138241426" expanded="true" signature="2183:2255" ph=" UPDATE statement (CUSTOMERS)" />
+            <marker date="1512138241426" expanded="true" signature="2575:2606" ph=" DELETE statement (CUSTOMERS)" />
+            <marker date="1512138241426" expanded="true" signature="2978:3036" ph=" INSERT statement (CUSTOMERS)" />
+            <marker date="1512138241426" expanded="true" signature="3335:3389" ph=" SELECT statement (DEVELOPERS_PROJECTS)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/GenericDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/SkillDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcSkillDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1825">
+          <caret line="82" column="44" lean-forward="true" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
+          <folding>
+            <marker date="1512143997678" expanded="true" signature="493:525" ph=" SELECT statement (SKILLS)" />
+            <marker date="1512143997678" expanded="true" signature="1162:1194" ph=" SELECT statement (SKILLS)" />
+            <marker date="1512143997678" expanded="true" signature="1899:1959" ph=" UPDATE statement (SKILLS)" />
+            <marker date="1512143997678" expanded="true" signature="2267:2295" ph=" DELETE statement (SKILLS)" />
+            <marker date="1512143997678" expanded="true" signature="2649:2701" ph=" INSERT statement (SKILLS)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/DeveloperDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/model/Developer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="79" column="25" lean-forward="false" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+          <folding>
+            <element signature="method#withId#0;class#Developer#0" expanded="false" />
+            <element signature="method#withName#0;class#Developer#0" expanded="false" />
+            <element signature="method#withSalary#0;class#Developer#0" expanded="false" />
+            <element signature="method#withListSkill#0;class#Developer#0" expanded="false" />
+            <element signature="e#1607#1608#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="method#withListProject#0;class#Developer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ExpandedAddData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/DeleteDataInTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/CreateDataInTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/model/Skill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/ConnectionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ExpandedShowList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ShowTablesInConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="86" column="39" lean-forward="true" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+          <folding>
+            <element signature="method#showTableDevelopers#0;class#ShowTablesInConsole#0" expanded="false" />
+            <element signature="method#showTableSkills#0;class#ShowTablesInConsole#0" expanded="false" />
+            <element signature="method#showTableCompanies#0;class#ShowTablesInConsole#0" expanded="false" />
+            <element signature="method#showTableCustomers#0;class#ShowTablesInConsole#0" expanded="false" />
+            <element signature="method#showTableProjects#0;class#ShowTablesInConsole#0" expanded="false" />
+            <element signature="method#showTableDevelopersSkills#0;class#ShowTablesInConsole#0" expanded="false" />
+            <element signature="method#showTableDevelopersProjects#0;class#ShowTablesInConsole#0" expanded="false" />
+            <element signature="method#showTableCompanyProjects#0;class#ShowTablesInConsole#0" expanded="false" />
+            <element signature="method#showTableCustomerProjects#0;class#ShowTablesInConsole#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcDeveloperDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3450">
+          <caret line="150" column="44" lean-forward="false" selection-start-line="150" selection-start-column="44" selection-end-line="150" selection-end-column="44" />
+          <folding>
+            <element signature="e#3927#3934#0" expanded="true" />
+            <element signature="e#4906#4913#0" expanded="true" />
+            <element signature="e#6949#6958#0" expanded="true" />
+            <marker date="1512157183428" expanded="true" signature="628:664" ph=" SELECT statement (DEVELOPERS)" />
+            <marker date="1512157183428" expanded="true" signature="1570:1606" ph=" SELECT statement (DEVELOPERS)" />
+            <marker date="1512157183428" expanded="true" signature="2613:2719" ph=" UPDATE statement (DEVELOPERS)" />
+            <marker date="1512157183428" expanded="true" signature="3071:3103" ph=" DELETE statement (DEVELOPERS)" />
+            <marker date="1512157183428" expanded="true" signature="3555:3636" ph=" INSERT statement (DEVELOPERS)" />
+            <marker date="1512157183428" expanded="true" signature="3962:4016" ph=" SELECT statement (DEVELOPERS_SKILLS)" />
+            <marker date="1512157183428" expanded="true" signature="4941:5013" ph=" SELECT statement (DEVELOPERS_SKILLS)" />
+            <marker date="1512157183428" expanded="true" signature="5748:5804" ph=" INSERT statement (DEVELOPERS_SKILLS)" />
+            <marker date="1512157183428" expanded="true" signature="5748:5818" ph=" INSERT statement (DEVELOPERS_SKILLS)" />
+            <marker date="1512157183428" expanded="true" signature="5748:5841" ph=" INSERT statement (DEVELOPERS_SKILLS)" />
+            <marker date="1512157183428" expanded="true" signature="5748:5858" ph=" INSERT statement (DEVELOPERS_SKILLS)" />
+            <marker date="1512157183428" expanded="true" signature="6393:6439" ph=" DELETE statement (DEVELOPERS_SKILLS)" />
+            <marker date="1512157183428" expanded="true" signature="6393:6473" ph=" DELETE statement (DEVELOPERS_SKILLS)" />
+            <marker date="1512157183428" expanded="true" signature="6986:7042" ph=" SELECT statement (DEVELOPERS_PROJECTS)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/MenuInConsoleInside.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/MenuInConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="101" column="4" lean-forward="false" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#startConsoleMenu#0;class#MenuInConsole#0" expanded="false" />
+            <element signature="method#workConsoleMenu#0;class#MenuInConsole#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -911,6 +1003,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: mysql:mysql-connector-java:5.1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
