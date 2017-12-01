@@ -5,7 +5,7 @@ import com.gmail.fomichov.m.dao.jdbc.JdbcDeveloperDAOImpl;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-class MenuInConsoleInside {
+class MenuInside {
 
     // меню работы с дополнительными возможностями редактирования для разработчиков
     static void choiceAddSkillFromDeveloper(Long developerId) throws SQLException {
@@ -13,7 +13,7 @@ class MenuInConsoleInside {
         Scanner scanner = new Scanner(System.in);
         int choice = scanner.nextInt();
         if (choice == 0) {
-            MenuInConsole.developerExpandedMenuEdit();
+            Menu.developerExpandedMenuEdit();
         } else {
             new JdbcDeveloperDAOImpl().addSkillToDeveloper(developerId, (long) choice);
         }
@@ -24,7 +24,7 @@ class MenuInConsoleInside {
         Scanner scanner = new Scanner(System.in);
         int choice = scanner.nextInt();
         if (choice == 0) {
-            MenuInConsole.developerExpandedMenuEdit();
+            Menu.developerExpandedMenuEdit();
         } else {
             new JdbcDeveloperDAOImpl().deleteSkillToDeveloper(developerId, (long) choice);
         }

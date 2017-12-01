@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-class UpdateDataInTable {
+class MenuUpdateDataInTable {
     void updateDeveloper() throws SQLException {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите id разработчика для обновления данных:");

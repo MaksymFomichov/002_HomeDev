@@ -3,7 +3,7 @@ package com.gmail.fomichov.m.work;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class MenuInConsole {
+public class Menu {
 
     // стартовое меню
     public static void startConsoleMenu() throws SQLException {
@@ -47,28 +47,28 @@ public class MenuInConsole {
         switch (choice) {
             case 1:
                 if (nameTable.equals("developers")) {
-                    new MenuInConsoleCreateDataInTable().createDeveloper();
+                    new MenuCreateDataInTable().createDeveloper();
                 } else if (nameTable.equals("companies")) {
-                    new MenuInConsoleCreateDataInTable().createCompany();
+                    new MenuCreateDataInTable().createCompany();
                 } else if (nameTable.equals("customers")) {
-                    new MenuInConsoleCreateDataInTable().createCustomer();
+                    new MenuCreateDataInTable().createCustomer();
                 } else if (nameTable.equals("projects")) {
-                    new MenuInConsoleCreateDataInTable().createProject();
+                    new MenuCreateDataInTable().createProject();
                 } else if (nameTable.equals("skills")) {
-                    new MenuInConsoleCreateDataInTable().createSkill();
+                    new MenuCreateDataInTable().createSkill();
                 }
                 break;
             case 2:
                 if (nameTable.equals("developers")) {
-                    new UpdateDataInTable().updateDeveloper();
+                    new MenuUpdateDataInTable().updateDeveloper();
                 } else if (nameTable.equals("companies")) {
-                    new UpdateDataInTable().updateCompany();
+                    new MenuUpdateDataInTable().updateCompany();
                 } else if (nameTable.equals("customers")) {
-                    new UpdateDataInTable().updateCustomer();
+                    new MenuUpdateDataInTable().updateCustomer();
                 } else if (nameTable.equals("projects")) {
-                    new UpdateDataInTable().updateProject();
+                    new MenuUpdateDataInTable().updateProject();
                 } else if (nameTable.equals("skills")) {
-                    new UpdateDataInTable().updateSkill();
+                    new MenuUpdateDataInTable().updateSkill();
                 }
                 break;
             case 3:

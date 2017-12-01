@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-class MenuInConsoleCreateDataInTable {
+class MenuCreateDataInTable {
 
     void createDeveloper() throws SQLException {
         Scanner scanner = new Scanner(System.in);
