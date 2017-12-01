@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3618b3a-a57c-4cfc-8f35-71c2721c74db" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a3618b3a-a57c-4cfc-8f35-71c2721c74db" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ExpandedShowList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="825">
-              <caret line="33" column="53" lean-forward="true" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+              <caret line="33" column="53" lean-forward="false" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/model/Company.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="900">
-              <caret line="50" column="59" lean-forward="true" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
+              <caret line="50" column="59" lean-forward="false" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
               <folding>
                 <element signature="method#withId#0;class#Company#0" expanded="false" />
                 <element signature="method#withCompany#0;class#Company#0" expanded="false" />
@@ -71,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcCompanyDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+              <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
               <folding>
                 <element signature="e#3248#3257#0" expanded="true" />
                 <marker date="1512083161006" expanded="true" signature="546:581" ph=" SELECT statement (COMPANIES)" />
@@ -95,6 +92,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ShowTablesInConsole.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ShowTablesInConsole.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcDeveloperDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="726">
-              <caret line="131" column="31" lean-forward="true" selection-start-line="117" selection-start-column="4" selection-end-line="136" selection-end-column="5" />
+              <caret line="131" column="31" lean-forward="false" selection-start-line="117" selection-start-column="4" selection-end-line="136" selection-end-column="5" />
               <folding>
                 <element signature="e#3800#3807#0" expanded="true" />
                 <element signature="e#4604#4613#0" expanded="true" />
@@ -690,7 +697,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ExpandedShowList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
-          <caret line="33" column="53" lean-forward="true" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+          <caret line="33" column="53" lean-forward="false" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -700,7 +707,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcDeveloperDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
-          <caret line="131" column="31" lean-forward="true" selection-start-line="117" selection-start-column="4" selection-end-line="136" selection-end-column="5" />
+          <caret line="131" column="31" lean-forward="false" selection-start-line="117" selection-start-column="4" selection-end-line="136" selection-end-column="5" />
           <folding>
             <element signature="e#3800#3807#0" expanded="true" />
             <element signature="e#4604#4613#0" expanded="true" />
@@ -726,7 +733,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/model/Company.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
-          <caret line="50" column="59" lean-forward="true" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
+          <caret line="50" column="59" lean-forward="false" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
           <folding>
             <element signature="method#withId#0;class#Company#0" expanded="false" />
             <element signature="method#withCompany#0;class#Company#0" expanded="false" />
@@ -740,7 +747,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcCompanyDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
           <folding>
             <element signature="e#3248#3257#0" expanded="true" />
             <marker date="1512083161006" expanded="true" signature="546:581" ph=" SELECT statement (COMPANIES)" />
@@ -750,6 +757,14 @@
             <marker date="1512083161006" expanded="true" signature="2930:2987" ph=" INSERT statement (COMPANIES)" />
             <marker date="1512083161006" expanded="true" signature="3285:3339" ph=" SELECT statement (DEVELOPERS_PROJECTS)" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
