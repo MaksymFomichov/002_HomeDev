@@ -3,6 +3,8 @@ package com.gmail.fomichov.m.dao.jdbc;
 import com.gmail.fomichov.m.dao.ConnectionUtil;
 import com.gmail.fomichov.m.dao.DeveloperDAO;
 import com.gmail.fomichov.m.model.Developer;
+import com.gmail.fomichov.m.model.Project;
+import com.gmail.fomichov.m.model.Skill;
 import com.gmail.fomichov.m.work.ShowTablesInConsole;
 
 import java.math.BigDecimal;
@@ -15,9 +17,9 @@ import java.util.List;
 public class JdbcDeveloperDAOImpl implements DeveloperDAO {
 
     public Developer getById(Long id) throws SQLException {
-        String sql = "SELECT * FROM developers WHERE id = " + id;
+        String query = "SELECT * FROM developers WHERE id = " + id;
         Statement statement = ConnectionUtil.getConnection().createStatement();
-        ResultSet resultSet = statement.executeQuery(sql);
+        ResultSet resultSet = statement.executeQuery(query);
 
         Developer developer = new Developer();
 
@@ -28,7 +30,9 @@ public class JdbcDeveloperDAOImpl implements DeveloperDAO {
 
             developer.withId(developerId)
                     .withName(name)
-                    .withSalary(salary);
+                    .withSalary(salary)
+                    .withListProject(getListProject(developerId))
+                    .withListSkill(getListSkill(developerId));
         }
 
         resultSet.close();
@@ -51,7 +55,9 @@ public class JdbcDeveloperDAOImpl implements DeveloperDAO {
 
             developer.withId(developerId)
                     .withName(name)
-                    .withSalary(salary);
+                    .withSalary(salary)
+                    .withListProject(getListProject(developerId))
+                    .withListSkill(getListSkill(developerId));
 
             developerList.add(developer);
         }
@@ -86,5 +92,47 @@ public class JdbcDeveloperDAOImpl implements DeveloperDAO {
         statement.executeUpdate(insertQuery);
         statement.close();
         ShowTablesInConsole.showTableDevelopers();
+    }
+
+    private List<Skill> getListSkill(Long developerId) throws SQLException {
+        List<Skill> listSkill = new ArrayList<Skill>();
+        String query = "SELECT * FROM developers_skills WHERE developers_id = " + developerId;
+        Statement statement = ConnectionUtil.getConnection().createStatement();
+        ResultSet resultSet = statement.executeQuery(query);
+
+        while (resultSet.next()) {
+            Skill skill = new Skill();
+            Long skillId = resultSet.getLong("skills_id");
+            String skillName = new JdbcSkillDAOImpl().getById(skillId).getSkill();
+
+            skill.withId(skillId)
+                    .withSkill(skillName);
+
+            listSkill.add(skill);
+        }
+        resultSet.close();
+        statement.close();
+        return listSkill;
+    }
+
+    private List<Project> getListProject(Long developerId) throws SQLException {
+        List<Project> listProject = new ArrayList<Project>();
+        String query = "SELECT * FROM developers_projects WHERE developers_id = " + developerId;
+        Statement statement = ConnectionUtil.getConnection().createStatement();
+        ResultSet resultSet = statement.executeQuery(query);
+
+        while (resultSet.next()) {
+            Project project = new Project();
+            Long projectId = resultSet.getLong("projects_id");
+            String projectName = new JdbcProjectDAOImpl().getById(projectId).getProject();
+
+            project.withId(projectId)
+                    .withProject(projectName);
+
+            listProject.add(project);
+        }
+        resultSet.close();
+        statement.close();
+        return listProject;
     }
 }

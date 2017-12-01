@@ -7,7 +7,6 @@ import java.sql.SQLException;
 public class JdbcMain {
 
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
-        System.out.println("Начинаем");
         ShowMenuInConsole.startConsoleMenu();
     }
 }

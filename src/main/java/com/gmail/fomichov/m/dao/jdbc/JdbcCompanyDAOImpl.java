@@ -3,6 +3,7 @@ package com.gmail.fomichov.m.dao.jdbc;
 import com.gmail.fomichov.m.dao.CompanyDAO;
 import com.gmail.fomichov.m.dao.ConnectionUtil;
 import com.gmail.fomichov.m.model.Company;
+import com.gmail.fomichov.m.model.Project;
 import com.gmail.fomichov.m.work.ShowTablesInConsole;
 
 import java.sql.ResultSet;
@@ -25,6 +26,7 @@ public class JdbcCompanyDAOImpl implements CompanyDAO {
             String nameCompany = resultSet.getString("company");
 
             company.withId(companyId)
+                    .withProjectList(getListProject(companyId))
                     .withCompany(nameCompany);
         }
 
@@ -46,6 +48,7 @@ public class JdbcCompanyDAOImpl implements CompanyDAO {
             String nameCompany = resultSet.getString("company");
 
             company.withId(companyId)
+                    .withProjectList(getListProject(companyId))
                     .withCompany(nameCompany);
 
             companyList.add(company);
@@ -81,5 +84,27 @@ public class JdbcCompanyDAOImpl implements CompanyDAO {
         statement.executeUpdate(insertQuery);
         statement.close();
         ShowTablesInConsole.showTableCompanies();
+    }
+
+    private List<Project> getListProject(Long companyId) throws SQLException {
+        List<Project> listProject = new ArrayList<Project>();
+        String query = "SELECT * FROM companies_projects WHERE companies_id = " + companyId;
+        Statement statement = ConnectionUtil.getConnection().createStatement();
+        ResultSet resultSet = statement.executeQuery(query);
+
+        while (resultSet.next()) {
+            System.out.println(resultSet.getLong("projects_id"));
+            Project project = new Project();
+            Long projectId = resultSet.getLong("projects_id");
+            String projectName = new JdbcProjectDAOImpl().getById(projectId).getProject();
+
+            project.withId(projectId)
+                    .withProject(projectName);
+
+            listProject.add(project);
+        }
+        resultSet.close();
+        statement.close();
+        return listProject;
     }
 }

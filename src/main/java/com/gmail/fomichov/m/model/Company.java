@@ -1,15 +1,19 @@
 package com.gmail.fomichov.m.model;
 
+import java.util.List;
+
 public class Company {
     private Long id;
     private String company;
+    private List<Project> projectList;
 
     public Company() {
     }
 
-    public Company(Long id, String company) {
+    public Company(Long id, String company, List<Project> projectList) {
         this.id = id;
         this.company = company;
+        this.projectList = projectList;
     }
 
     public Long getId() {
@@ -25,6 +29,7 @@ public class Company {
         return this;
     }
 
+
     public String getCompany() {
         return company;
     }
@@ -38,11 +43,27 @@ public class Company {
         return this;
     }
 
+
+    public List<Project> getProjectList() {
+        return projectList;
+    }
+
+    public void setProjectList(List<Project> projectList) {
+        this.projectList = projectList;
+    }
+
+    public Company withProjectList(List<Project> projectList) {
+        this.projectList = projectList;
+        return this;
+    }
+
+
     @Override
     public String toString() {
         return "Company{" +
                 "id=" + id +
-                ", compani='" + company + '\'' +
+                ", company='" + company + '\'' +
+                ", projectList=" + projectList +
                 '}';
     }
 }
