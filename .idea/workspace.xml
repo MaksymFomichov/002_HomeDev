@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3618b3a-a57c-4cfc-8f35-71c2721c74db" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a3618b3a-a57c-4cfc-8f35-71c2721c74db" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,58 +16,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ShowMenuInConsole.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ShowMenuInConsole.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JdbcMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/JdbcMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExpandedShowList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ExpandedShowList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="33" column="53" lean-forward="false" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Company.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/model/Company.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="50" column="59" lean-forward="false" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
-              <folding>
-                <element signature="method#withId#0;class#Company#0" expanded="false" />
-                <element signature="method#withCompany#0;class#Company#0" expanded="false" />
-                <element signature="e#879#880#0" expanded="true" />
-                <element signature="e#913#914#0" expanded="true" />
-                <element signature="e#1020#1021#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JdbcCompanyDAOImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JdbcCompanyDAOImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcCompanyDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="-317">
               <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
               <folding>
                 <element signature="e#3248#3257#0" expanded="true" />
@@ -79,56 +29,6 @@
                 <marker date="1512083161006" expanded="true" signature="2532:2563" ph=" DELETE statement (COMPANIES)" />
                 <marker date="1512083161006" expanded="true" signature="2930:2987" ph=" INSERT statement (COMPANIES)" />
                 <marker date="1512083161006" expanded="true" signature="3285:3339" ph=" SELECT statement (DEVELOPERS_PROJECTS)" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitattributes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShowTablesInConsole.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ShowTablesInConsole.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JdbcDeveloperDAOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcDeveloperDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="131" column="31" lean-forward="false" selection-start-line="117" selection-start-column="4" selection-end-line="136" selection-end-column="5" />
-              <folding>
-                <element signature="e#3800#3807#0" expanded="true" />
-                <element signature="e#4604#4613#0" expanded="true" />
-                <marker date="1512083161073" expanded="true" signature="628:664" ph=" SELECT statement (DEVELOPERS)" />
-                <marker date="1512083161073" expanded="true" signature="1570:1606" ph=" SELECT statement (DEVELOPERS)" />
-                <marker date="1512083161073" expanded="true" signature="2577:2683" ph=" UPDATE statement (DEVELOPERS)" />
-                <marker date="1512083161073" expanded="true" signature="3007:3039" ph=" DELETE statement (DEVELOPERS)" />
-                <marker date="1512083161073" expanded="true" signature="3463:3544" ph=" INSERT statement (DEVELOPERS)" />
-                <marker date="1512083161073" expanded="true" signature="3835:3889" ph=" SELECT statement (DEVELOPERS_SKILLS)" />
-                <marker date="1512083161073" expanded="true" signature="4641:4697" ph=" SELECT statement (DEVELOPERS_PROJECTS)" />
               </folding>
             </state>
           </provider>
@@ -459,7 +359,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22296602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22296602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -785,6 +685,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -820,6 +721,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
           <caret line="127" column="12" lean-forward="false" selection-start-line="127" selection-start-column="12" selection-end-line="127" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -875,7 +777,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcDeveloperDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
+        <state relative-caret-position="1125">
           <caret line="131" column="31" lean-forward="false" selection-start-line="117" selection-start-column="4" selection-end-line="136" selection-end-column="5" />
           <folding>
             <element signature="e#3800#3807#0" expanded="true" />
@@ -893,7 +795,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/work/ShowTablesInConsole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
+        <state relative-caret-position="950">
           <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
           <folding />
         </state>
@@ -913,22 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcCompanyDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding>
-            <element signature="e#3248#3257#0" expanded="true" />
-            <marker date="1512083161006" expanded="true" signature="546:581" ph=" SELECT statement (COMPANIES)" />
-            <marker date="1512083161006" expanded="true" signature="1312:1347" ph=" SELECT statement (COMPANIES)" />
-            <marker date="1512083161006" expanded="true" signature="2146:2215" ph=" UPDATE statement (COMPANIES)" />
-            <marker date="1512083161006" expanded="true" signature="2532:2563" ph=" DELETE statement (COMPANIES)" />
-            <marker date="1512083161006" expanded="true" signature="2930:2987" ph=" INSERT statement (COMPANIES)" />
-            <marker date="1512083161006" expanded="true" signature="3285:3339" ph=" SELECT statement (DEVELOPERS_PROJECTS)" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -942,6 +828,22 @@
         <state relative-caret-position="375">
           <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gmail/fomichov/m/dao/jdbc/JdbcCompanyDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-317">
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="e#3248#3257#0" expanded="true" />
+            <marker date="1512083161006" expanded="true" signature="546:581" ph=" SELECT statement (COMPANIES)" />
+            <marker date="1512083161006" expanded="true" signature="1312:1347" ph=" SELECT statement (COMPANIES)" />
+            <marker date="1512083161006" expanded="true" signature="2146:2215" ph=" UPDATE statement (COMPANIES)" />
+            <marker date="1512083161006" expanded="true" signature="2532:2563" ph=" DELETE statement (COMPANIES)" />
+            <marker date="1512083161006" expanded="true" signature="2930:2987" ph=" INSERT statement (COMPANIES)" />
+            <marker date="1512083161006" expanded="true" signature="3285:3339" ph=" SELECT statement (DEVELOPERS_PROJECTS)" />
+          </folding>
         </state>
       </provider>
     </entry>
